@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: linear-gradient(#1484a6, #000000);
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+main{
+    width: 25%;
+    height: 50%;
+    background: linear-gradient(#1484a6, #000000);
+    border: dashed 3px white;
+}
+
+form{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+h1{
+    color: aliceblue;
+    text-align: center;
+    font-size: 35px;
+    margin: 10px;
+}
+
+input{
+    width: 250px;
+    height: 40px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 15px;
+}
+
+button{
+    width: 120px;
+    height: 35px;
+    background-color: rgb(18, 204, 46);
+    border: white double 5px;
+    margin-top: 20px;
+}
+
+.logo{
+    width: 20%;
+    height: 100px;
+}
+
+footer p {
+    color: aliceblue;
+
+}
+
+label{
+    width: 250px;
+    height: 5px;
+    color: aliceblue;
+    align-items: flex-start;
+    margin-bottom: 0;
+}

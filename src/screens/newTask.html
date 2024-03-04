@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New Task</title>
+    <link rel="stylesheet" href="../../css/newTask.css">
+    <link rel="shortcut icon" href="../../src/imgs/favicon.png" type="image/x-icon">
+    <script src="../../js/newTask.js" defer></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+</head>
+<body>
+    <header>
+        <img src="../imgs/logos_senai_preto.png" alt="Logo" class="logo">
+        <div id="user"></div>
+    </header>
+    <main>
+        <div class="newCard">
+            <input type="text" placeholder="Titulo" id="titulo">
+            <input type="date" placeholder="Data de Conclusão" id="data">
+            <button class="newTask" onclick="newTask()">New Tasks</button>
+        </div>
+    </main>
+</body>
+</html>
