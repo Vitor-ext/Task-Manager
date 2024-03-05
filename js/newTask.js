@@ -1,4 +1,6 @@
-const idUsuario = localStorage.getItem('idUser')
+const idUsuarioStorage = localStorage.getItem('idUser')
+
+const idUsuario = parseInt(idUsuarioStorage)
 
 
 window.onload = async () => {
